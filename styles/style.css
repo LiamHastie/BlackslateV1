@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*#region | Hero Section | */
+#hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("../imgs/slate-background.png");
+}
+#hero img {
+  width: 50%;
+}
+
+/*#endregion *//*# sourceMappingURL=style.css.map */

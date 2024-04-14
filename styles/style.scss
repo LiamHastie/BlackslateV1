@@ -1,0 +1,29 @@
+//Default Styling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//Take up whole page
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*#region | Hero Section | */
+#hero {
+  //Positioning
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("../imgs/slate-background.png");
+  //Logo Styling
+  img {
+    width: 50%;
+  }
+}
+/*#endregion */
