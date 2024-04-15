@@ -1,8 +1,10 @@
 //Default Styling
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
 }
 //Take up whole page
 body {
@@ -13,7 +15,6 @@ body {
 
 /*#region | Hero Section | */
 #hero {
-  //Positioning
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -24,6 +25,47 @@ body {
   //Logo Styling
   img {
     width: 50%;
+    max-width: 800px;
+  }
+}
+/*#endregion */
+
+/*#region | Nav Bar | */
+nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 8vh;
+  padding: 0 2vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  border-top: white 1px solid;
+  p {
+    color: white;
+    font-size: 2vh;
+  }
+  img {
+    height: 5vh;
+    max-height: 600px;
+    margin-left: 14vw;
+  }
+}
+/*#endregion */
+
+/*#region | Responsive Design | */
+@media only screen and (max-width: 1050px) {
+  .hide-on-resize {
+    display: none;
+  }
+}
+@media only screen and (max-width: 750px) {
+  nav {
+    p {
+      font-size: 1.3vh;
+    }
   }
 }
 /*#endregion */
