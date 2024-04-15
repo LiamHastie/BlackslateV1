@@ -42,6 +42,10 @@ nav {
   background: black;
   border-top: white 1px solid;
 }
+nav a {
+  color: white;
+  text-decoration: underline;
+}
 nav p {
   color: white;
   font-size: 2vh;

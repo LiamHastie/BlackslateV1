@@ -43,6 +43,10 @@ nav {
   align-items: center;
   background: black;
   border-top: white 1px solid;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
   p {
     color: white;
     font-size: 2vh;
