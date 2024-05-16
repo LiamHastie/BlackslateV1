@@ -25,7 +25,7 @@ body {
   //Logo Styling
   img {
     width: 50%;
-    max-width: 800px;
+    max-width: 1200px;
   }
 }
 /*#endregion */
@@ -69,6 +69,11 @@ nav {
   nav {
     p {
       font-size: 1.3vh;
+    }
+  }
+  #hero {
+    img {
+      width: 80%;
     }
   }
 }

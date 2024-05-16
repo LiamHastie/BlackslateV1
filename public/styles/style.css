@@ -24,7 +24,7 @@ body {
 }
 #hero img {
   width: 50%;
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 /*#endregion */
@@ -66,6 +66,9 @@ nav img {
 @media only screen and (max-width: 750px) {
   nav p {
     font-size: 1.3vh;
+  }
+  #hero img {
+    width: 80%;
   }
 }
 /*#endregion *//*# sourceMappingURL=style.css.map */
